@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* INICIO DO HEADER */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.logo-text{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 16px;
+}
+
+.links a:hover{
+    color: #000;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login{
+    color: #4a4a4a;
+    padding: 8px 15px;
+}
+
+.signup{
+    background-color: #8e2424;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.signup:hover{
+    background-color: #820000;
+}
+/* FIM DO HEADER */
+
+/* COMEÇO DO SOBRE NÓS */
+.sobre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    height: 407px;
+}
+
+.sobre-subtitulo{
+    font-size: 16px;
+    font-weight: 600;
+    color: #8E2424;
+}
+
+.sobre-titulo{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+}
+
+.sobre-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 12em;
+}
+
+p{
+    color: #667085;
+}
+/* FIM DO SOBRE NÓS */
+
+/* INICIO DAS MÉTRICAS */
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 1280px;
+    height: 288px;
+}
+
+.info-item{
+    width: 280px;
+}
+
+.info-numero{
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.info-titulo{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.info-text{
+    font-weight: 400;
+    font-size: 16px;
+}
+/* FIM DAS MÉTRICAS */
+
+/* INICIO DE VAGAS */
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 80px;
+    gap: 64px;
+}
+
+.vagas-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 64px;
+}
+
+.vagas-text span{
+    border-radius: 16px;
+    padding: 4px 16px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8E24240D;
+    color: #8E2424;
+}
+
+.vagas-text h2{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.vagas-text p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.vagas-img{
+    max-width: 1216px;
+}
+
+.vagas-img img{
+    width: 100%;
+}
+
+.vagas-design,
+.vagas-dev{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 768px;
+    width: 100%;
+}
+
+.vagas-titulo{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.vagas-tipo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #eaecf0;
+    border-radius: 16px;
+    padding: 24px;
+    gap: 32px;
+}
+
+.vagas-tipo h4{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.vagas-tipo p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.vagas-tipo span{
+    margin-left: 24px;
+}
+/* FIM DE VAGAS */
+
+/* INICIOP DEPOIMENTOS */
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding: 0 112px;
+}
+
+.depoimentos-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    background-color: #C3191908;
+    max-width: 1216px;
+    width: 100%;
+    height: 404px;
+    padding: 64px;
+}
+
+.depoimentos-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1088px;
+}
+
+.depoimentos-text span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #8E2424;
+}
+
+.depoimentos-text p{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #101828;
+}
+
+.depoimentos-perfil img{
+    margin-bottom: 16px;
+}
+
+.depoimentos-perfil p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 5px;
+}
+
+.depoimentos-perfil span{
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
+}
+/* FIM DEPOIMENTOS */
+
+/* INICIO DO RODAPE */
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 430px;
+    background-color: #f9fafb;
+    width: 100%;
+    padding: 96px 80px;
+}
+
+.rodape-text h3{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.rodape-text p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;;
+    margin-bottom: 30px;
+}
+
+.rodape-form{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.rodape-form .form-email{
+    max-width: 360px;
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #d0d5dd;
+}
+
+.rodape-form .form-btn{
+    width: 116px;
+    padding: 12px;
+    background-color: #8E2424;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn_cadastro{
+    width: 116px;
+    padding: 12px;
+    background-color: #8e2424;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn_cadastro:hover{
+    background-color: #820000;
+}
+
+.rodape span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
+}
